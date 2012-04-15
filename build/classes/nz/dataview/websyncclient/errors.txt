@@ -1,0 +1,54 @@
+Unexplained errors
+0000: Fatal error: unexpected error encountered, exit program
+0001: Fault returned from LMS
+0002: Exception occurred during...
+0003: Problem processing control files.
+0004: Problem creating control files.
+0005: Error: failed to re-initialise system configurations.
+
+Low level message errors
+0100: Invalid response received from LMS
+0101: LMS returned a web page. It could be down. Try visiting the web service URL in a browser.
+0102: Could not find the message contents
+0103: Decrypted content contains invalid characters
+0104: School is not recognised - double check your school configurations
+0105: Authentication failed. Double check your authentication key configuration.
+0106: Initialisation vector is empty
+0107: Missing headers
+0108: Failed to read response from [blah] message.
+0109: Read timed out
+0110: Connect timed out
+
+Normal message errors
+0201: Could not unserialize keep alive response
+0202: Could not read status file (keep alive message)
+0203: Could not update status file (keep alive message)
+
+Batch errors
+0301: Batch nnnn failed
+0302: Could not read status file
+0303: Could not update status file
+0304: Upload folder could not be read from config.
+0305: Could not rename batch file nnnn
+0306: Could not create batch xml file [name]
+0307: Error writing batch xml file [name]
+0308: Could not read the upload dir (dir)
+0309: n file(s) failed to upload during this run
+0310: Could not create success file [file]
+0311: Error writing success file [file]
+0312: Could not create failure file [file]
+0313: Error writing failure file [file]
+0314: Could not delete uploaded file [file] (insufficient permissions)
+0315: Could not delete uploaded file [file]
+0316: Failed to upload file [file]
+0317: File [file] could not be found.
+0318: Could not read file [file] for upload.
+0319: Failed to upload file: [file] (uploaded so far: n bytes), gave up after 5 tries
+0320: Failed to close off sequence, gave up after 5 tries
+0321: IO error encountered while reading file: [file] to upload (uploaded so far: n bytes), giving up.
+0322: Could not find batch xml file [name]
+0323: Could not read batch xml file [name]
+
+High level errors
+0400: Unable to email. Are your SMTP settings correct?
+0401: Failed to submit report of this run to server.

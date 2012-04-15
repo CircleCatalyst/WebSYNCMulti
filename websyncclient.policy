@@ -1,0 +1,27 @@
+grant {
+	permission java.net.SocketPermission "localhost:1099", "connect, resolve";
+	permission java.io.FilePermission "C:\\Program Files\\WebSYNCClient\\-", "read";
+	permission java.io.FilePermission "C:\\Program Files\\WebSYNCClient\\upload_dir\\*", "delete";
+	permission java.io.FilePermission "C:\\Program Files\\WebSYNCClient\\download_dir\\*", "write";
+	permission java.util.PropertyPermission "nz.dataview.websyncclient.*", "read, write";
+	
+	// axis
+	permission java.util.PropertyPermission "org.apache.*", "read";
+	permission java.lang.RuntimePermission "getClassLoader";
+	
+	// axis
+	//permission java.io.FilePermission "client-config.wsdd", "read, write";
+	//permission java.util.PropertyPermission "org.apache.commons.logging.LogFactory", "read";
+	//permission java.util.PropertyPermission "javax.xml.*", "read";
+	//permission java.lang.RuntimePermission "accessDeclaredMembers";
+	//permission java.util.PropertyPermission "java.protocol.handler.pkgs", "read,write";
+	//permission java.lang.RuntimePermission "getClassLoader";
+	//permission java.lang.RuntimePermission "createClassLoader";
+	//permission java.util.PropertyPermission "http.proxyHost", "read";
+	//permission java.util.PropertyPermission "http.proxyPort", "read";
+	//permission java.util.PropertyPermission "http.nonProxyHosts", "read";
+	//permission java.util.PropertyPermission "http.proxyUser", "read";
+	//permission java.util.PropertyPermission "http.proxyPassword", "read";
+	//permission java.net.SocketPermission "*", "resolve, connect";
+};
+
